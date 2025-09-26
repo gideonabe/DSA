@@ -22,6 +22,6 @@ def binary_search(list, item):
   return None
 
 
-my_list = [1, 3, 5, 7, 9, 10]
+my_list = [1, 3, 5, 7, 9, 10] 
 
 print(binary_search(my_list, 10))
