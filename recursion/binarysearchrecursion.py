@@ -1,6 +1,7 @@
 # Binary search recursion algorithm
 
 def binarySearch(arr, target, low, high):
+  # base case
   if low > high:
     return ValueError("Target not in array")
   
@@ -11,6 +12,7 @@ def binarySearch(arr, target, low, high):
   # base case
   if guess == target:
     return mid
+  # recursive case
   elif guess < target:
     return binarySearch(arr, target, mid + 1, high)
   else:
